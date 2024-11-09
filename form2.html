@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form action="https://api.web3forms.com/submit" method="POST">
+    <input type="hidden" name="access_key" value="1f9736d5-c9eb-4d91-9ce5-a9945992254d">
+    <div>
+        <label for="customerName">Name:</label>
+        <input type="text" id="customerName" name="customerName" placeholder="Enter Your Name" required>
+        
+        <label for="companyName">Company Name:</label>
+        <input type="text" id="companyName" name="companyName" placeholder="Enter Your Company Name" required>
+        
+        <label for="phoneNumber">Phone Number:</label>
+        <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Enter Your Ph No" required>
+    </div>
+
+    <div>
+        <label for="customerEmail">Email:</label>
+        <input type="email" id="customerEmail" name="customerEmail" placeholder="Enter Your Email" required>
+        
+        <label for="dropLocation">Drop Location</label>
+        <input type="text" id="dropLocation" name="dropLocation" placeholder="Enter Your Drop Location" required>
+        
+        <label for="pickupLocation">Pickup Location</label>
+        <input type="text" id="pickupLocation" name="pickupLocation" placeholder="Enter Your Pickup Location" required>
+    </div>
+
+    <div>
+        <label for="cargo">Cargo Type:</label>
+        <select name="services" id="cargo">
+            <option value="Select Service" selected disabled>Select Service</option>
+            <option value="Demo1">Demo1</option>
+            <option value="Demo2">Demo2</option>
+            <option value="Demo3">Demo3</option>
+            <option value="Demo4">Demo4</option>
+            <option value="Demo5">Demo5</option>
+        </select>
+    </div>
+
+    <div>
+        <label for="loadInTons">Load in tons:</label>
+        <input type="text" id="loadInTons" name="loadInTons" placeholder="Load in tons" required>
+    </div>
+
+    <div>
+        <label for="msg">Message:</label>
+        <textarea id="msg" name="msg" placeholder="Write Here..." required></textarea>
+    </div>
+
+    <button type="submit" class="hover1">Submit</button>
+</form>
+
+</div>
+<div class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+        <img src="assets/images/icons/submitted.gif" alt="submitIcon">
+        <div>
+            <h3>Response Submitted</h3>
+            <h6>Your details have been successfully submitted. Thanks</h6>
+        </div>
+        <button type="button" class="hover1 m-auto" data-bs-dismiss="modal">Close</button>
+    </div>
+</div>
+</div>
+</div>
+<div class="col-lg-7 col-md-12 p-0 d-flex">
+<figure data-aos="fade-up"><img src="assets/images/index/get-a-Quote.png" alt="workSiteImage">
+</figure>
+</div>
+</div>
+</section>
+</body>
+</html>
